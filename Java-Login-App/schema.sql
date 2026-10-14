@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS UserDB;
+USE UserDB;
+
+CREATE TABLE IF NOT EXISTS Employee (
+  id INT UNSIGNED AUTO_INCREMENT NOT NULL,
+  first_name VARCHAR(250) NOT NULL,
+  last_name VARCHAR(250),
+  email VARCHAR(250),
+  username VARCHAR(250) NOT NULL UNIQUE,
+  password VARCHAR(255) NOT NULL COMMENT 'BCrypt hash from register flow',
+  regdate DATE,
+  PRIMARY KEY (id)
+);

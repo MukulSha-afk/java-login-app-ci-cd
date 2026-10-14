@@ -1,0 +1,40 @@
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/
+!.mvn/wrapper/*
+
+# Env / secrets - never commit
+.env
+# Maven private settings - never commit
+Java-Login-App/settings.xml
+*.pem
+*.key
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!example.tfvars
+.terraform.lock.hcl
+
+# Docker volumes / logs
+*.log
