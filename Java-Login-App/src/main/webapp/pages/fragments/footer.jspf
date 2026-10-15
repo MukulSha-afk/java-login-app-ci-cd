@@ -1,0 +1,4 @@
+<footer class="site-footer">
+  <p><strong>Java Login App</strong> &middot; Spring Boot 2.7 &middot; JSP &middot; MySQL &middot; Docker</p>
+  <p class="muted">Passwords are BCrypt-hashed. Demo project for portfolio use.</p>
+</footer>

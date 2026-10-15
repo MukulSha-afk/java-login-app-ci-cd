@@ -1,0 +1,13 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="<c:url value='/'/>" aria-label="Java Login App home">
+    <span class="brand-mark" aria-hidden="true">JA</span>
+    <span class="brand-text">Java Login App</span>
+  </a>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="<c:url value='/home'/>">Home</a>
+    <a href="<c:url value='/login'/>">Login</a>
+    <a href="<c:url value='/register'/>" class="nav-cta">Create account</a>
+  </nav>
+</header>
